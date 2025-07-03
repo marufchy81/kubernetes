@@ -5,7 +5,7 @@ This repository contains:
 - KOPS-generated Kubernetes cluster details
 - Sample deployment YAMLs
 
-## ðŸ“• Screenshots
+## Screenshots
 
 - **Cluster Configuration**
   ![Cluster Info](kops-cluster/cluster-info.png)
@@ -13,23 +13,23 @@ This repository contains:
 - **EC2 Instances**
   ![EC2 Nodes](kops-cluster/ec2-nodes.png)
 
-## ðŸ“ Deployments
+## Deployments
 
 Sample deployment manifests for Kubernetes apps are in the `deployments/` folder.
 
-## ðŸ› ï¸ Tools Used
+## Tools Used
 
 - **KOPS**
 - **AWS EC2 (t2.medium)**
 - **S3 Backend for KOPS State Store**
 
-## ðŸ” Exported Environment
+## Exported Environment
 
 ```bash
 export KOPS_STATE_STORE=s3://july-03-maruf
 ```
 
-## ðŸ”§ KOPS Commands Used
+## KOPS Commands Used
 
 ```bash
 kops get cluster
